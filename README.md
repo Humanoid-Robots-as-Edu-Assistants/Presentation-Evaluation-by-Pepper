@@ -15,7 +15,8 @@ Upon completing the analysis, Pepper provides a detailed summary of the results,
 
 ### What do you need?
 
-In addition to this program on your Pepper robot, you also need to run the server on the same network as Pepper.
+In addition to this program on your Pepper robot, you also need to run the server on the same network as Pepper. The server code can be downloaded from the following link:
+https://drive.google.com/drive/folders/1Kpwt_wWZjP2AGGHj_h_GtwTx1JKW_onm?usp=sharing
 
 ### Plans of further development:
 
