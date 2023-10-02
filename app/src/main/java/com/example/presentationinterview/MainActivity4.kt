@@ -95,9 +95,9 @@ class MainActivity4 : AppCompatActivity() , RobotLifecycleCallbacks {
             say11.run()
             Thread.sleep(2000L)
             record = "Group_3_Reaction"
-            recordingDurationMillis = 30000L
+            recordingDurationMillis = 20000L
             runOnUiThread { parallel() }
-            Thread.sleep(31000L)
+            Thread.sleep(21000L)
             move()
 
         }

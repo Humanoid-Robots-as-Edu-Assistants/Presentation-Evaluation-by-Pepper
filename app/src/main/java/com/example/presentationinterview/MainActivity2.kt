@@ -74,7 +74,7 @@ class MainActivity2 : AppCompatActivity(), RobotLifecycleCallbacks {
             .build()
 
         val say32 = SayBuilder.with(qiContext)
-            .withText("Gerne würde ich erkennen können, wie gut euch die Präsentationen gefallen. Dafür versuche ich eurer " +
+            .withText("Gerne würde ich erkennen können, wie gut euch die Präsentationen gefallen. Dafür versuche ich euer " +
                     "Klatschen nach der Präsentation auszuwerten." )
             .build()
 
@@ -149,9 +149,9 @@ class MainActivity2 : AppCompatActivity(), RobotLifecycleCallbacks {
             Thread.sleep(2000L)
             say7.run()
             record = "Group_1_Reaction"
-            recordingDurationMillis = 30000L // 30 sec clapping record
+            recordingDurationMillis = 20000L // 30 sec clapping record
             runOnUiThread { parallel() }
-            Thread.sleep(31000L)
+            Thread.sleep(21000L)
             move()
         }
 

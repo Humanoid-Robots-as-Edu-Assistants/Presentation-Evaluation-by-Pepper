@@ -148,7 +148,6 @@ class MainActivity : AppCompatActivity(), RobotLifecycleCallbacks {
             .build() // Build the listen action.
 
         say.run()
-        //move()
 
         val listenResult = listen.run()
 
@@ -176,11 +175,11 @@ class MainActivity : AppCompatActivity(), RobotLifecycleCallbacks {
                 .build()
 
             val say25 = SayBuilder.with(qiContext)
-                .withText("Findet euch in den 4 Themengruppen zusammen und tauscht eure Informationen aus. Habt ihr das Gleiche herausgefunden oder ergänzen sich eure Informationen?")
+                .withText("Findet euch in den Themengruppen zusammen und tauscht eure Informationen aus. Habt ihr das Gleiche herausgefunden oder ergänzen sich eure Informationen?")
                 .build()
 
             val say26 = SayBuilder.with(qiContext)
-                .withText("Gruppe 1a findet sich mit Gruppe 1b zusammen. Gruppe 2a mit Gruppe 2b. Gruppe 3a mit Gruppe 3b. und Gruppe 4a mit Gruppe 4b.")
+                .withText("Gruppe 1a findet sich mit Gruppe 1b zusammen. Gruppe 2a mit Gruppe 2b. Gruppe 3a mit Gruppe 3b. und so weiter.")
                 .build()
 
             val say27 = SayBuilder.with(qiContext)
@@ -248,8 +247,8 @@ class MainActivity : AppCompatActivity(), RobotLifecycleCallbacks {
                     Thread.sleep(1000L)
                     say28.run()
                     Thread.sleep(1000L)
-                    say29.run()
-                    Thread.sleep(1000L)
+                    //say29.run()
+                    //Thread.sleep(1000L)
                     say210.run()
                     Thread.sleep(1000L)
                     say211.run()
@@ -262,10 +261,9 @@ class MainActivity : AppCompatActivity(), RobotLifecycleCallbacks {
                     Thread.sleep(1000L)
                     say214.run()
                     runOnUiThread(Runnable {startTimer() })
-                    Thread.sleep(295000L)
+                    Thread.sleep(290000L)
                     animate.run()
                     say215.async().run()
-
                 }
             }
 

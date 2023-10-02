@@ -136,13 +136,13 @@ class MainActivity6 : AppCompatActivity(), RobotLifecycleCallbacks {
         if (PhraseSetUtil.equals(matchedPhraseSet, phraseSetYes)){
             runBlocking {
                 say152.run()
-                delay(2000)
+                delay(1000)
                 say18.run()
-                delay(2000)
+                delay(1000)
                 say19.run()
-                delay(2000)
+                delay(1000)
                 resultIntensity()
-                delay(2000)
+                delay(7000)
                 winner = result.text[8].toString()
                 delay(1000)
                 val say191 = SayBuilder.with(qiContext)
